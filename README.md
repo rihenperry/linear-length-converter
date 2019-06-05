@@ -38,7 +38,5 @@ widget.
 ### 3. Installation & Running the app.
 On terminal, 
 ```console
-term1$ pip3 install tkinter
-
-```console
-term1$ python3 length_converter.py
+pip3 install tkinter
+python3 length_converter.py
