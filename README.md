@@ -1,4 +1,4 @@
-### Background
+### 1. Background
 - A standalone application which runs on a Laptop/Desktop computer. The application is build using the lightweight GUI library ‘tkinter’ belonging to python programming language.
 - This application will serve users who want to get acquainted with yet another measurement system used for measuring 1 dimension quantity - length, than they are already used to in their daily lives.
 - Foreign visitors who are unfamiliar with measurements used to measure quantity in foreign
@@ -27,15 +27,18 @@ the frame. So that all widget within the frame appear aligned.
 textfield, perform conversions, calculations under the hood and produce out into its adjacent text entry
 widget.
 
-### Quick lo-fi prototypes
+### 2. Quick lo-fi prototypes
 ![](sketch.png)
 
 ![](fixed_length_calculator_layout.png)
 
-### Bi-directional length converter in action
+### 3. Bi-directional length converter in action
 ![](length-conv-show.gif)
 
-### Running the app.
-On one terminal, 
+### 3. Installation & Running the app.
+On terminal, 
 ```console
-term1$ python length_converter.py
+term1$ pip3 install tkinter
+
+```console
+term1$ python3 length_converter.py
